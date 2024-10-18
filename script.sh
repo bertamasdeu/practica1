@@ -50,6 +50,8 @@ echo "Buscant coincidencies..."
 	else
                 echo "No s'han trobat coincidencies"
 	fi
+echo "   "
+echo "Recordatori: per trobar una coincidencia exacta l'identificador ha d'estar entre cometes """
 else
 	echo "No s'ha proporcionat cap identificador"
 fi
