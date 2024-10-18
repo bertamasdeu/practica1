@@ -46,9 +46,7 @@ if [ $# -gt 0 ]; then
 echo "Buscant coincidencies..."
         buscar=$(grep -i "$1" sortida.csv)
         if [ -n "$buscar" ]; then
-                echo "$buscar" | cut -d',' -f 3,6,8-10,15-17 
-       		num_linies=$(echo "$buscar" | wc -l)
-                echo "$num_linies" 
+                echo "$buscar" | cut -d',' -f 3,6,8-10,15-17
 	else
                 echo "No s'han trobat coincidencies"
 	fi
